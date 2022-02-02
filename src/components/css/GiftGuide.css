@@ -1,0 +1,48 @@
+.parallaxGiftGuide {
+    /* The image used */
+    background-image: url("../../../public/GiftGuideII.png");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:-50px;
+  }
+  .qoute {
+
+ 
+  }
+
+  #guide{
+    height: 750px;
+  }
+
+  img.card-img-top{
+    max-height: 190px;
+  }
+
+  .mainContainerGiftGuide{
+    background-image: linear-gradient(to left top, #41403f, #1f1f1e);
+    padding-bottom:50px;
+  }
+
+  div.card-body{
+    color: #080808; font-family: 'Carme', sans-serif; font-size: 16px; line-height: 24px;  text-align: center; margin: 0 0 0px; 
+
+  }
+  p.card-text{
+    color: #080808; font-family: 'Carme', sans-serif; font-size: 16px; line-height: 24px;  text-align: center; margin: 0 0 0px; 
+  }
+  h1 {  color: #CEF0D4; font-family: 'Rouge Script', 
+        cursive; font-size: 50px; font-weight: normal;
+         text-align: center; 
+        text-shadow: 1px 1px 2px #082b34; } 
+
+   h2 { color: #a7e8f8; font-family: 'Julius Sans One', sans-serif; font-size: 22px; font-weight: bold;  text-align: center;  line-height: 32px; margin: 0 0 0; text-shadow: 1px 1px 1px #082b34; }
+  
+   p { color: #FFFFFF; font-family: 'Carme', sans-serif; font-size: 16px; line-height: 24px;  text-align: center; margin: 0 0 50px; }
