@@ -1,10 +1,14 @@
 {
-  "name": "react-lib",
+  "name": "react-navbar-scroll-spy",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
-  "author": "tomadtech",
+  "description": "Navigation Bar with currently active item highlighting based on scroll position.",
+  "author": "Tomasz Porst <tomasz.porst@gmail.com> (https://tomasz-porst.web.app/)",
   "license": "MIT",
-  "repository": "tomadtech/react-lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tporst/react-navbar-scroll-spy.git"
+  },
+
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

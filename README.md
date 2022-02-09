@@ -1,7 +1,3 @@
-npm run build
-npm pack
-
-
 
 # react-lib
 
@@ -11,25 +7,11 @@ npm pack
 
 ## Install
 
-```bash
-npm install --save react-lib
-```
 
 ## Usage
 
-```jsx
-import React, { Component } from 'react'
 
-import MyComponent from 'react-lib'
-import 'react-lib/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
 
 ## License
 
-MIT © [tomadtech](https://github.com/tomadtech)
+MIT © [tomadtech](https://github.com/tporst)
