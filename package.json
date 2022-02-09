@@ -1,6 +1,6 @@
 {
   "name": "react-navbar-scroll-spy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Navigation Bar with currently active item highlighting based on scroll position.",
   "author": "Tomasz Porst <tomasz.porst@gmail.com> (https://tomasz-porst.web.app/)",
   "license": "MIT",
@@ -59,7 +59,7 @@
   ],
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.2",
-
+    "bootstrap": "^5.1.3",
     "react-bootstrap": "^2.1.2",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1"

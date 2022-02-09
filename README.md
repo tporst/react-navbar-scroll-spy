@@ -77,7 +77,8 @@ function Gallery(props) {
     return (
       <div>
         <ItemScrollSpy  scrollSpyId='gallery' paddingTop={-150} { ...props}>
-        ...
+          ...
+        </ItemScrollSpy>
       </div>
     )
 }
