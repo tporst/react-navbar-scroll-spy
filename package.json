@@ -19,7 +19,7 @@
     "build": "microbundle-crl --no-compress --format modern,cjs ",
     "build:npm" : "run-s build build:pack build:mv",
     "build:pack" : "npm pack",
-    "build:mv" : "mv react-lib-1.0.0.tgz ../malu-gift-shop",
+    "build:mv" : "mv react-navbar-scroll-spy-1.0.0.tgz ../malu-gift-shop",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
@@ -59,7 +59,7 @@
   ],
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.2",
-    "bootstrap": "^5.1.3",
+
     "react-bootstrap": "^2.1.2",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1"
