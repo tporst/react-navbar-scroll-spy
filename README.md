@@ -1,6 +1,5 @@
 # react-navbar-scroll-spy
-`react-navbar-scroll-spy` is a tiny react component to help you create navigation bars
-that highlighting the currently active navbar item based on scroll position.
+`react-navbar-scroll-spy` is a tiny react lib to help you create navigation bars, highlighting the currently active navbar item based on scroll position.
 
 ## Installation
 
@@ -9,13 +8,11 @@ Open a Terminal in your project's folder and run:
 
 ```
 npm install react-navbar-scroll-spy
-
 ```
 or
 
 ```
 yarn add react-navbar-scroll-spy
-
 ```
 
 ## API
