@@ -1,6 +1,6 @@
 {
   "name": "react-navbar-scroll-spy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Navigation Bar with currently active item highlighting based on scroll position.",
   "author": "Tomasz Porst <tomasz.porst@gmail.com> (https://tomasz-porst.web.app/)",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/tporst/react-navbar-scroll-spy.git"
   },
-
+  "keywords":["react","react-component","navbar","navigation","scroll-spy","scroll","spy"],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
