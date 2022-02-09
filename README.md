@@ -27,7 +27,6 @@ import { NavBarScrollSpy} from 'react-navbar-scroll-spy';
 
 | name | type | default | description |
 | ---- | -------- | ------- | ----------- |
-
 | `variant` | String | N/A | The general visual variant a the Navbar.  Choose from variant="light" for use with light background colors, or variant="dark" for dark background colors. Then, customize with the bg prop or any custom css!|
 | `bg` | String | N/A |  Additional visual variant for the Navbar. Choose from bg="light" for use with light background colors, or bg="dark" for dark background colors. Pairs nicely with the variant prop. |
 | `items` | Array: [{id:..,item:..}...] | N/A  | Items displayed in NavBar by unique id and item property.
@@ -51,7 +50,6 @@ import {ItemScrollSpy} from 'react-navbar-scroll-spy';
 
 | name | type | default | description |
 | ---- | -------- | ------- | ----------- |
-
 | `scrollSpyId` | String | N/A | One of id's defined in NavBarScrollSpy items like: scrollSpyId='about'. Used used for highlighting the item in NavBar based on current scrolling position.|
 | `paddingTop` | Integer | 0 |  Additional property used to adjust the item highlighting position for a region of the Page. Can be positiv or negative: like paddingTop={-150} |
 | `paddingBottom` | Integer | 0 | Additional property used to adjust the item highlighting position for a region of the Page. Can be positiv or negative: like paddingBottom={-150}|
@@ -103,4 +101,4 @@ function Gallery(props) {
 
 ## License
 
-MIT © [tomadtech](https://github.com/tporst)
+MIT © [Tomasz Porst](https://github.com/tporst)
