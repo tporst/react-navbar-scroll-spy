@@ -21,32 +21,21 @@ yarn add react-navbar-scroll-spy
 ## API
 
 `NavBarScrollSpy` - A responsive navigation header.
-
+```javascript
 import { NavBarScrollSpy} from 'react-navbar-scroll-spy';
-
+```
 
 | name | type | default | description |
 | ---- | -------- | ------- | ----------- |
 | `variant` | String | N/A | The general visual variant a the Navbar.  Choose from variant="light" for use with light background colors, or variant="dark" for dark background colors. Then, customize with the bg prop or any custom css!|
 | `bg` | String | N/A |  Additional visual variant for the Navbar. Choose from bg="light" for use with light background colors, or bg="dark" for dark background colors. Pairs nicely with the variant prop. |
-| `items` | Array: [{id:..,item:..}...] | N/A  | Items displayed in NavBar by unique id and item property.
-Id is used for highlighting the item in NavBar based on current scrolling position.
-Item is the label displayed in Navbar.
-Example:
-```javascript
-[
-  {id:'about', item:'About'},
-  {id:'gallery', item:'Gallery'},
-  {id:'giftGuide', item:'Gift Guide'}
-]
-```
-|
+| `items` | Array: [{id:..,item:..}...] | N/A  | Items displayed in NavBar by unique id and item property. Id is used for highlighting the item in NavBar based on current scrolling position. Item is the label displayed in Navbar. Example: ```javascript [{id:'about', item:'About'},{id:'gallery', item:'Gallery'},{id:'giftGuide', item:'Gift Guide'}]```|
 
 
 `ItemScrollSpy` - Connect Region on your page with NavBar Items.
-
+```javascript
 import {ItemScrollSpy} from 'react-navbar-scroll-spy';
-
+```
 
 | name | type | default | description |
 | ---- | -------- | ------- | ----------- |
