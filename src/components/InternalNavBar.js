@@ -35,10 +35,6 @@ const InternalNavBar = (props) =>{
             React.cloneElement(child, { scrollSpy: scrollSpy, setScrollSpy: setScrollSpy , ...child.props }));
     }
 
-    useEffect(() => {
-        console.log(globalState);
-      });
-
 
    /*  use real component hight from global state to estimate if the menu item pointing to the component should be displayed
     build the menu item dynamically based on the items array passed as prop */
