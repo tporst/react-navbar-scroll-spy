@@ -1,14 +1,15 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
+import React from 'react';
 
 export const configSlice = createSlice({
   name: 'config',
-  
+
   initialState: {
     cmpPositions: {}
   },
-  
+
   reducers: {
-    setComptPositions: (state, action) => {    
+    setComptPositions: (state, action) => {
       state.cmpPositions = {...state.cmpPositions, ...action.payload}
     },
   },

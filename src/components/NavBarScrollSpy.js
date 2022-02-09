@@ -1,10 +1,12 @@
-import './css/NavBar.css'
 import store from '../store/store.js'
 import { Provider } from 'react-redux'
 import {InternalNavBar} from './InternalNavBar'
+import {ItemScrollSpy} from './ItemScrollSpy'
+import React from 'react';
 /* 
     Wrapper component providing global store to all children components
 */
+
 const NavBarScrollSpy = (props) =>{       
     return(
         <div >          
@@ -16,4 +18,5 @@ const NavBarScrollSpy = (props) =>{
         </div>)
 }
 
-export { NavBarScrollSpy};
+
+export { NavBarScrollSpy, ItemScrollSpy};
