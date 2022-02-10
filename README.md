@@ -28,7 +28,9 @@ import { NavBarScrollSpy} from 'react-navbar-scroll-spy';
 | `bg` | String | N/A |  Additional visual variant for the Navbar. Choose from bg="light" for use with light background colors, or bg="dark" for dark background colors. Pairs nicely with the variant prop. |
 | `items` | Array: [{id:..,item:..}...] | N/A  | Items displayed in NavBar by unique id and item property. Id is used for highlighting the item in NavBar based on current scrolling position. Item is the label displayed in Navbar. Example: ` [{id:'about', item:'About'},{id:'gallery', item:'Gallery'},{id:'giftGuide', item:'Gift Guide'}]`|
 
-<br/>
+
+
+
 `ItemScrollSpy` - Connect Region on your page with NavBar Items.
 ```javascript
 import {ItemScrollSpy} from 'react-navbar-scroll-spy';
