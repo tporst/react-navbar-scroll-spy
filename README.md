@@ -28,7 +28,7 @@ import { NavBarScrollSpy} from 'react-navbar-scroll-spy';
 | `bg` | String | N/A |  Additional visual variant for the Navbar. Choose from bg="light" for use with light background colors, or bg="dark" for dark background colors. Pairs nicely with the variant prop. |
 | `items` | Array: [{id:..,item:..}...] | N/A  | Items displayed in NavBar by unique id and item property. Id is used for highlighting the item in NavBar based on current scrolling position. Item is the label displayed in Navbar. Example: ` [{id:'about', item:'About'},{id:'gallery', item:'Gallery'},{id:'giftGuide', item:'Gift Guide'}]`|
 
-
+<br/>
 `ItemScrollSpy` - Connect Region on your page with NavBar Items.
 ```javascript
 import {ItemScrollSpy} from 'react-navbar-scroll-spy';
@@ -37,8 +37,8 @@ import {ItemScrollSpy} from 'react-navbar-scroll-spy';
 | name | type | default | description |
 | ---- | -------- | ------- | ----------- |
 | `scrollSpyId` | String | N/A | One of id's defined in NavBarScrollSpy items like: scrollSpyId='about'. Used used for highlighting the item in NavBar based on current scrolling position.|
-| `paddingTop` | Integer | 0 |  Additional property used to adjust the item highlighting position for a region of the Page. Can be positiv or negative: like paddingTop={-150} |
-| `paddingBottom` | Integer | 0 | Additional property used to adjust the item highlighting position for a region of the Page. Can be positiv or negative: like paddingBottom={-150}|
+| `paddingTop` | Integer | 0 |  Additional property used to adjust the item highlighting position for a region of the Page. Can be positive or negative: like paddingTop={-150} |
+| `paddingBottom` | Integer | 0 | Additional property used to adjust the item highlighting position for a region of the Page. Can be positive or negative: like paddingBottom={-150}|
 
 
 
@@ -69,14 +69,15 @@ const App = () => {
 ```
 
  Flag the React component or position on your Page to which NavBarScrollSpy should be linked.
- When this ItemScrollSpy is visible in the viewport the corresponding NavBar Item with id == scrollSpyId will get highlighted.
+ `When this ItemScrollSpy is visible in the viewport the corresponding NavBar Item with id == scrollSpyId will get highlighted.`
 
 ```javascript
 function Gallery(props) {
  ...
     return (
       <div>
-        <ItemScrollSpy  scrollSpyId='gallery' paddingTop={-150} { ...props}>
+      /*  Don't forget to pass all props to ItemScrollSpy */
+        <ItemScrollSpy  scrollSpyId='gallery' { ...props}>
           ...
         </ItemScrollSpy>
       </div>
@@ -84,7 +85,10 @@ function Gallery(props) {
 }
 ```
 
-
+ **Important:**  pass all props from your component to ItemScrollSpy
+ ```javascript
+ <ItemScrollSpy  scrollSpyId='gallery' { ...props}>
+```
 
 ## License
 
