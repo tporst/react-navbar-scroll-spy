@@ -87,7 +87,7 @@ function Gallery(props) {
 }
 ```
 
- **Important:**  pass all props from your component to ItemScrollSpy
+ **Important: pass all props from your component to ItemScrollSpy**
  ```javascript
  <ItemScrollSpy  scrollSpyId='gallery' { ...props}>
 ```
