@@ -78,19 +78,16 @@ function Gallery(props) {
  ...
     return (
       <div>
-      /*  Don't forget to pass all props to ItemScrollSpy */
-        <ItemScrollSpy  scrollSpyId='gallery' { ...props}>
+        <ItemScrollSpy  scrollSpyId='gallery'>
+
           ...
+
         </ItemScrollSpy>
       </div>
     )
 }
 ```
 
- **Important: pass all props from your component to ItemScrollSpy**
- ```javascript
- <ItemScrollSpy  scrollSpyId='gallery' { ...props}>
-```
 
 ## License
 

@@ -13,8 +13,6 @@ import { useSelector } from 'react-redux'
 const InternalNavBar = (props) =>{
 
     const [scrollY, setScrollY] = useState(0);
-    const [scrollSpy, setScrollSpy] = useState(true);
-
     const globalState = useSelector(state => state.config.cmpPositions)
 
     /*
@@ -23,18 +21,6 @@ const InternalNavBar = (props) =>{
      document.addEventListener('scroll',(e) => {
         setScrollY(window.scrollY);
     })
-
-    /*
-    clone a child element and inject the scroll spy logic to each child
-    we have to pass a flag to avoid infinitive rendering of components
-    otherwise child would set the position in global state and cause re-render of Parent component, which again would trigger re-render of children and
-    recalculating the position. It this way we would end up in infinity loop
-    */
-    let renderChildren = () =>{
-        return React.Children.map(props.children, child =>
-            React.cloneElement(child, { scrollSpy: scrollSpy, setScrollSpy: setScrollSpy , ...child.props }));
-    }
-
 
    /*  use real component hight from global state to estimate if the menu item pointing to the component should be displayed
     build the menu item dynamically based on the items array passed as prop */
@@ -61,9 +47,7 @@ const InternalNavBar = (props) =>{
                     </Nav>
                 </Container>
             </Navbar>
-
-               {renderChildren()}
-
+               {props.children}
         </div>)
 }
 

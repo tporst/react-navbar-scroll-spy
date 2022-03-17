@@ -1,6 +1,6 @@
 {
   "name": "react-navbar-scroll-spy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Navigation Bar with currently active item highlighting based on scroll position.",
   "author": "Tomasz Porst <tomasz.porst@gmail.com> (https://tomasz-porst.web.app/)",
   "license": "MIT",
@@ -8,7 +8,15 @@
     "type": "git",
     "url": "https://github.com/tporst/react-navbar-scroll-spy.git"
   },
-  "keywords":["react","react-component","navbar","navigation","scroll-spy","scroll","spy"],
+  "keywords": [
+    "react",
+    "react-component",
+    "navbar",
+    "navigation",
+    "scroll-spy",
+    "scroll",
+    "spy"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -17,9 +25,9 @@
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs ",
-    "build:npm" : "run-s build build:pack build:mv",
-    "build:pack" : "npm pack",
-    "build:mv" : "mv react-navbar-scroll-spy-1.0.0.tgz ../malu-gift-shop",
+    "build:npm": "run-s build build:pack build:mv",
+    "build:pack": "npm pack",
+    "build:mv": "mv react-navbar-scroll-spy-1.0.4.tgz ../malu-gift-shop",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
